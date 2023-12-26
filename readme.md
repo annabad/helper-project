@@ -35,3 +35,35 @@ Each commit has its own unique hash (40-character line) - Commit's main identifi
 ## HEAD
 - Among other files in the .git folder there is a HEAD service file. It points to the most recent commit.
 - Instead of the hash of the last commit, you can write the word HEAD - Git will understand you.
+
+## Files' statuses in GIT
+
+- __untracked / tracked__
+- __staged__ (Files in *staging area / cash / index*)
+- __modified__
+
+HEAD -- это голова.
+Коммит -- это всему голова.
+Статусы файлов:
+
+
+```mermaid
+graph LR;
+untracked -- "git add" --> staged/tracked;
+staged -- "git commit" --> committed/tracked;
+
+%% in case of any changes made in tracked file:
+tracked --> modified -- "git add" --> staged -- "git commit" --> committed
+
+```
+
+
+
+
+
+
+
+
+
+
+
