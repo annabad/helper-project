@@ -50,10 +50,18 @@ HEAD -- это голова.
 ```mermaid
 graph LR;
 untracked -- "git add" --> staged/tracked;
+
 staged -- "git commit" --> committed/tracked;
 
-%% in case of any changes made in tracked file:
-tracked --> modified -- "git add" --> staged -- "git commit" --> committed
+```
+
+
+In case of any changes made in tracked file:
+
+
+```mermaid
+graph LR;
+tracked --> modified -- "git add" --> staged -- "git commit" --> committed;
 
 ```
 
