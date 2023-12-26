@@ -20,4 +20,13 @@ In case it's the first time:
 ``` bash
 git push -u origin main
 ```
-[Link to Yandex Practicum training](https://practicum.yandex.ru/profile/git-basics/ "I am Yandex")
+[Link to Yandex Practicum training on GIT basics](https://practicum.yandex.ru/profile/git-basics/ "I am Yandex")
+
+## Hash of a commit
+
+
+GIT hash information about a commit (time, author, files' content at the moment of the commit and a link to a parent commit) using SHA-1 algorithm.
+Each commit has its own unique hash (40-character line) - Commit's main identifier.
+
+
+- __git log --oneline__ - to get a shortcut log with contracted hash numbers (they also could be used as links to the commits)
