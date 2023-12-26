@@ -29,4 +29,4 @@ GIT hash information about a commit (time, author, files' content at the moment 
 Each commit has its own unique hash (40-character line) - Commit's main identifier.
 
 
-- __git log --oneline__ - to get a shortcut log with contracted hash numbers (they also could be used as links to the commits)
+- __git log --oneline__ - to get a shortcut log with abbreviated 7-digit hash versions (they also could be used as links to the commits)
