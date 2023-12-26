@@ -30,3 +30,8 @@ Each commit has its own unique hash (40-character line) - Commit's main identifi
 
 
 - __git log --oneline__ - to get a shortcut log with abbreviated 7-digit hash versions (they also could be used as links to the commits)
+
+
+## HEAD
+- Among other files in the .git folder there is a HEAD service file. It points to the most recent commit.
+- Instead of the hash of the last commit, you can write the word HEAD - Git will understand you.
